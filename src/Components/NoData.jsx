@@ -15,14 +15,14 @@ export default function NoData() {
       <Box sx={{ p: 4 }}>
         <img
           alt="green iguana"
-          height="100%"
+          height="10%"
           style={{ objectFit: "contain" }}
           width={"100%"}
           src={
-            "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/error-no-search-results_2353c5.png"
+            "https://internetdevels.com/sites/default/files/public/blog_preview/404_page_cover.jpg"
           }
         />
-        <Box>
+        {/* <Box>
           <Typography
             gutterBottom
             variant="overline"
@@ -34,7 +34,7 @@ export default function NoData() {
           <Typography variant="caption" color="text.secondary">
             Please check the spelling or try searching for something else ABOUT
           </Typography>
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   );
